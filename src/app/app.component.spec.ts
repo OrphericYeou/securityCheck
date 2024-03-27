@@ -31,6 +31,7 @@ describe('AppComponent', () => {
     fixture.detectChanges();
     const compiled = fixture.nativeElement as HTMLElement;
     expect(compiled.querySelector('.content span')?.textContent).toContain('SecurityCheck app is running!');
+    echo('hello workd');
 
     // Ajout d'une erreur mineure : la classe CSS 'content' n'existe pas
     // dans le fichier de style. Cela générera un avertissement dans la console.
