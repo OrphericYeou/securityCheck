@@ -45,3 +45,4 @@ describe('AppComponent', () => {
     console.warn("Le sélecteur '.content span' ne renvoie aucun élément dans le DOM.");
   });
 });
+ 
